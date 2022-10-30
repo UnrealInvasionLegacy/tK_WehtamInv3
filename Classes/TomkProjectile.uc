@@ -1,0 +1,32 @@
+class TomkProjectile extends KrallBolt;
+
+defaultproperties
+{
+     Speed=2200.000000
+     MaxSpeed=2200.000000
+     Damage=45.000000
+     MomentumTransfer=28000.000000
+     MyDamageType=Class'SkaarjPack.DamTypeKrallBolt'
+     ExplosionDecal=Class'XEffects.LinkBoltScorch'
+     LightType=LT_Steady
+     LightEffect=LE_QuadraticNonIncidence
+     LightBrightness=255.000000
+     LightRadius=1.000000
+     DrawType=DT_StaticMesh
+     StaticMesh=StaticMesh'WeaponStaticMesh.LinkProjectile'
+     bDynamicLight=True
+     AmbientSound=SoundGroup'WeaponSounds.ShieldGun.ShieldNoise'
+     LifeSpan=3.000000
+     DrawScale3D=(X=1.300000,Y=1.300000,Z=1.300000)
+     PrePivot=(X=10.000000)
+     Skins(0)=FinalBlend'tk_WehtamInv3.Weapons.FinalLink'
+     AmbientGlow=217
+     Style=STY_Additive
+     SoundVolume=255
+     SoundRadius=100.000000
+     bFixedRotationDir=True
+     RotationRate=(Roll=80000)
+     ForceType=FT_Constant
+     ForceRadius=30.000000
+     ForceScale=7.000000
+}

@@ -1,0 +1,33 @@
+class ElectroProjectile extends ShockProjectile;
+
+defaultproperties
+{
+     ComboSound=Sound'WeaponSounds.ShockRifle.ShockComboFire'
+     ComboDamage=200.000000
+     ComboRadius=275.000000
+     ComboMomentumTransfer=150000.000000
+     ComboAmmoCost=3
+     ComboDamageType=Class'XWeapons.DamTypeShockBeam'
+     Speed=1500.000000
+     MaxSpeed=1500.000000
+     bSwitchToZeroCollision=True
+     Damage=45.000000
+     DamageRadius=150.000000
+     MomentumTransfer=70000.000000
+     MyDamageType=Class'XWeapons.DamTypeShockBall'
+     ImpactSound=Sound'WeaponSounds.ShockRifle.ShockRifleExplosion'
+     ExplosionDecal=Class'XEffects.ShockImpactScorch'
+     MaxEffectDistance=7000.000000
+     LightType=LT_Steady
+     LightEffect=LE_QuadraticNonIncidence
+     LightHue=195
+     LightSaturation=85
+     LightBrightness=255.000000
+     LightRadius=4.000000
+     DrawType=DT_Sprite
+     CullDistance=4000.000000
+     bDynamicLight=True
+     bNetTemporary=False
+     bOnlyDirtyReplication=True
+     LifeSpan=10.000000
+}

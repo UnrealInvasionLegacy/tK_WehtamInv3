@@ -1,0 +1,35 @@
+class IceLordBolt extends KrallBolt;
+
+defaultproperties
+{
+     TrailTex=Texture'XEffectMat.Link.link_muz_yellow'
+     Speed=1800.000000
+     MaxSpeed=1500.000000
+     Damage=40.000000
+     MomentumTransfer=28000.000000
+     MyDamageType=Class'SkaarjPack.DamTypeKrallBolt'
+     ExplosionDecal=Class'XEffects.LinkBoltScorch'
+     LightType=LT_Steady
+     LightEffect=LE_QuadraticNonIncidence
+     LightHue=65
+     LightSaturation=100
+     LightBrightness=255.000000
+     LightRadius=3.000000
+     DrawType=DT_StaticMesh
+     StaticMesh=StaticMesh'WeaponStaticMesh.LinkProjectile'
+     bDynamicLight=True
+     AmbientSound=Sound'WeaponSounds.LinkGun.LinkGunProjectile'
+     LifeSpan=7.000000
+     DrawScale3D=(X=5.550000,Y=1.300000,Z=1.300000)
+     PrePivot=(X=10.000000)
+     Skins(0)=FinalBlend'XEffectMat.Link.LinkProjYellowFB'
+     AmbientGlow=217
+     Style=STY_Additive
+     SoundVolume=255
+     SoundRadius=50.000000
+     bFixedRotationDir=True
+     RotationRate=(Roll=80000)
+     ForceType=FT_Constant
+     ForceRadius=30.000000
+     ForceScale=7.000000
+}
